@@ -1,6 +1,6 @@
 body { display: flex; flex-wrap: wrap;}
 
-header {width: 100%; }
+header {width: 100%;}
 
 main {width: 75%; }
 
@@ -13,6 +13,8 @@ ul {display: flex; flex-wrap: wrap; list-style-type: none;}
 figure {position: relative; margin: 0.5em; }
 
 figcaption {position: absolute; top: 0px; background: white; opacity: 0.6; width: 100%}
+
+
 html {
     color: #222;
     font-size: 1em;
