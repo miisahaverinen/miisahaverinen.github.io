@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap</title>
+	
+	<style>
+	[class*="col"] {
+		padding: 2rem;
+		background-color: purple;
+		border: 5px solid;
+		color: white;
+		text-align: center;
+	}
+	</style>
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md-4">Bootstrapilla vai ilman?</div>
+			<div class="col-md-8">Bootstrap on suosittu verkkokehityksen käyttöliittymä, joka tarjoaa joukon työkaluja, tyylejä ja komponentteja, jotka tehostavat reagoivien ja visuaalisesti houkuttelevien verkkosivustojen rakentamista. Tässä on joitain Bootstrapin käytön etuja ja haittoja:</div>
+		</div>
+	</div>
+	
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md-6">Edut:<br>
+- Responsiivinen muotoilu: Bootstrap on rakennettu mobiililähtöisyydellä, joten responsiivisten ja mobiiliystävällisten verkkosivustojen luominen on helppoa ilman, että sinun tarvitsee kirjoittaa paljon mukautettua CSS:ää. <br>
+- Johdonmukaisuus: Bootstrap tarjoaa yhtenäisen ja standardoidun ulkoasun ja tuntuman eri selaimissa, mikä auttaa ylläpitämään yhtenäisen käyttökokemuksen. <br>
+- Selainten välinen yhteensopivuus: Bootstrap on suunniteltu yhteensopivaksi suurten selainten kanssa, mikä vähentää laajojen selainkohtaisten CSS-säätöjen tarvetta. <br>
+</div>
+			<div class="col-md-6">Haitat:<br>
+			- Yleinen ulkoasu: Koska Bootstrapia käytetään laajalti, sillä rakennetuilla verkkosivustoilla voi olla jonkin verran samaa ulkonäköä. Ilman merkittävää räätälöintiä voi olla haastavaa luoda ainutlaatuinen ja erottuva nettisivu.<br>
+			- Tiedoston koko: Koko Bootstrap-kirjaston sisällyttäminen voi johtaa suurempaan tiedostokokoon, mikä saattaa vaikuttaa sivun latausaikoihin ja suorituskykyyn. Tämä on erityisen tärkeää hitaampien verkkojen mobiilikäyttäjille.<br>
+			- Riippuvuus JavaScriptistä: Jotkut Bootstrapin ominaisuudet perustuvat JavaScriptiin. Jos käyttäjä on poistanut JavaScriptin käytöstä tai jos tavoittelet JavaScript-vapaata ratkaisua, tämä voi olla haittapuoli.
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md">Tuomaristo</div>
+		</div>
+	</div>
+	
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md">Kirsi Kiireinen: <br>
+			puolesta</div>
+			<div class="col-md">Ykä Yksilöllinen: <br>
+			vastaan</div>
+			<div class="col-md">Piia Portfoliosivu: <br>
+			epävarma</div>
+			<div class="col-md">Pete Perussiisti:<br>
+			puolesta</div>
+			<div class="col-md">Minna Monimutkainensivu:<br>
+			vastaan</div>
+		</div>
+	</div>
+	
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md">Bootstrap VS HTML ja CSS<br>
+			Minkälaisiin nettisivuprojekteihin Bootstrap sopii ja minkälaisiin sopii paremmin kokonaan itse kirjoitettu HTML- ja CSS-koodi?
+			</div>
+		</div>
+	</div>
+	
+	<div class="container-md">
+		<div class="row">
+			<div class="col-md">Bootstrap:<br>
+			- Projekteihin, joissa tarvitaan nopeaa kehitystä: Bootstrapin valmiit komponentit ja tyylit säästävät aikaa ja vaivaa. Se on erityisen hyödyllinen prototyyppien tai pienempien projektien toteuttamisessa.<br>
+			- Responsiivisiin sivustoihin: Bootstrapin mobiiliystävällinen rakenne auttaa rakentamaan helposti responsiivisia sivustoja, mikä on tärkeää nykypäivän monenlaisilla laitteilla.<br>
+			- Projekteihin, joissa ei ole erityisiä design-vaatimuksia: Jos projektisi ei vaadi ainutlaatuista ulkoasua ja voit elää Bootstrapin oletusteemojen kanssa, se voi olla erittäin tehokas.<br>
+			- Ihmisille, joilla ei ole vahvaa frontend-osaamista: Bootstrap voi auttaa ihmisiä, jotka eivät välttämättä ole kokeneita frontend-kehittäjiä, koska se tarjoaa valmiita ratkaisuja.
+			</div>
+			<div class="col-md">HTML ja CSS:<br>
+			- Projekteihin, joissa on erityiset design-vaatimukset: Jos sinulla on tarkkoja suunnitteluvaatimuksia ja haluat täyden hallinnan sivustosi ulkoasuun, saattaa olla parempi kirjoittaa koodi itse alusta alkaen.<br>
+			- Suuriin ja monimutkaisiin projekteihin: Isommissa projekteissa, joissa on paljon räätälöintiä ja erikoistoimintoja, saatat hyötyä enemmän täydellisestä hallinnasta koodiisi.<br>
+			- Kokeneille frontend-kehittäjille: Kokeneet frontend-kehittäjät voivat nauttia täydestä käsityöstä ja saada parhaat tulokset kirjoittamalla koodinsa itse.<br>
+			- Projekteihin, jotka vaativat optimoitua suorituskykyä: Bootstrapin valmiit komponentit voivat johtaa suurempaan tiedostokokoon, mikä voi vaikuttaa sivuston suorituskykyyn. Jos suorituskyky on kriittinen tekijä, harkitse tarkkaan tarvitsetko kaikkia Bootstrapin ominaisuuksia.
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
