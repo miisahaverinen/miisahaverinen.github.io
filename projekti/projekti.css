@@ -1,0 +1,86 @@
+html {background-image: url("hellokitty-background2.jpg");}
+
+body {
+	width: 1250px;
+	margin: auto;
+	display:flex, flex-wrap: wrap;
+	background-color:#FFBBDB;
+	}
+	
+.topnav {
+	overflow: hidden;
+}
+	
+.topnav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Nunito sans', sans serif;
+	border-radius: 12px;
+}
+	
+.topnav a:hover {
+	background-color: #FFD8EA;
+	color: black;
+}
+	
+.topnav a.active {
+	background-color:#FF85BF;
+	color:black;
+}
+
+header{
+	text-align: center;
+	font-size:280%;
+	font-family: 'Sacramento', cursive;
+	padding: 14px;
+
+	}
+
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+	padding-left: 50px;
+}
+
+h3 {padding-left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+	
+p {
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 125%;
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+
+ul {
+	padding-left: 70px;
+	padding-right: 50px;
+	font-size: 115%;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#hp {
+	float: right;
+}
+
+#hkf{
+	float: right;
+}
+
+#sanrio {
+	float: right;
+}
+
+footer {
+	background-color:#FFB2D6;
+	font-size: 75%;
+	} 
+	
+	
+	
